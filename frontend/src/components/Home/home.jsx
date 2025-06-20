@@ -7,17 +7,25 @@ import Footer from '../Footer/footer';
 
 function Home() {
   return (
-    <div className={styles.homeContainer}>
+    <>
       <Header />
-      <h1 className={styles.title}>Welcome to Our Home Page</h1>
-      <p className={styles.description}>
-        Discover our services and offerings tailored just for you.
-      </p>
+        <div className={styles.heroSection}>
+          
+          <h1 className={styles.title}>Digitizing Ideas with Clean Code & Modern <br />Design</h1>
+          <p className={styles.description}>
+            At Websort, we turn digital visions into reality with expert web and app development, UI/UX design, and digital marketing. Based in Bangalore, we craft responsive websites, innovative mobile apps, and drive results through SEO, PPC, and social media strategies.
+          </p>
+      
+          <div>
+            <button type='button' className={styles.button}>Know More</button>
+            <button type='button' className={styles.button}>Contact Us</button>
+          </div>
+        </div>
       <AboutUs />
       <Projects />
       <ContactUs />
       <Footer />
-    </div>
+    </>
   );
 }
 
