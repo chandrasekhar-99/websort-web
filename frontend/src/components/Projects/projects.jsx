@@ -9,18 +9,20 @@ function Projects() {
     <div className={styles.projectsContainer}>
       <h1 className={styles.title}>Our Projects</h1>
       <div className={styles.projectList}>
-        <div className={styles.project}>
-          <img src={ProjectImage1} alt="AppProject" className={styles.projectImageStyle}/>
-          <p className={styles.projectName}>App development</p>
-        </div>
-        <div className={styles.project}> 
-          <img src={ProjectImage2} alt="UIUXProject" className={styles.projectImageStyle}/>
-          <p className={styles.projectName}>UI/UX Design</p>
-        </div>
-        <div className={styles.project}>
-          <img src={ProjectImage3} alt="WebProject" className={styles.projectImageStyle}/>
-          <p className={styles.projectName}>Web development</p>
-        </div>
+        <div className={styles.scrollWrapper}>
+          <div className={styles.project}>
+            <img src={ProjectImage1} alt="AppProject" className={styles.projectImageStyle}/>
+            <p className={styles.projectName}>App development</p>
+          </div>
+          <div className={styles.project}> 
+            <img src={ProjectImage2} alt="UIUXProject" className={styles.projectImageStyle}/>
+            <p className={styles.projectName}>UI/UX Design</p>
+          </div>
+          <div className={styles.project}>
+            <img src={ProjectImage3} alt="WebProject" className={styles.projectImageStyle}/>
+            <p className={styles.projectName}>Web development</p>
+          </div>
+      </div>
       </div>
     </div>
   );
