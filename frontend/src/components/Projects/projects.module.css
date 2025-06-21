@@ -80,6 +80,12 @@
 
 
 @media (max-width: 768px) {
+  .projectsContainer{
+    height: 482px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
   .projectImageStyle{
     width: 197px;
     height: 305px;
@@ -127,7 +133,9 @@
   transform: scale(1.05);
 }
 
-
-
+.projectName{
+  font-size: 18px;
+  text-align: center;
+}
 
 }
