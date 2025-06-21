@@ -75,30 +75,30 @@
 
 
 @media (max-width: 768px) {
-    .projectImageStyle{
+  .projectImageStyle{
     width: 197px;
     height: 305px;
-    top: 927px;
-    left: 120px;
     border-width: 5px;
   }
 
-  .projectListWrapper {
-  overflow-x: auto;
-  width: 100%;
-}
+  
 
 .projectList {
   display: flex;
   gap: 16px;
-  padding: 16px;
-  scroll-behavior: smooth;
+  padding: 20px;
+  margin: 10px;
+  overflow-x: auto;
 }
 
-.project {
-  flex: 0 0 auto;
-  width: 250px;
-  text-align: center;
+.projectList::-webkit-scrollbar{
+  width: 0;
+}
+
+.projectList .project {
+  min-width: 110px;
+  line-height: 110px;
+  margin-right: 4px;
 }
 
 .projectImageStyle {

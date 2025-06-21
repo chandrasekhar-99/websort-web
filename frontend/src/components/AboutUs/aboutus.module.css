@@ -69,7 +69,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    padding-left:30%;
+    padding-right: 30%;
     background-image: url(../../assets/innovationBackGround.jpg);
     background-size: cover;
     background-position: center;
