@@ -53,7 +53,6 @@ function Header() {
           <li><Link to="careers" spy={true} offset={-90} smooth={true} duration={600} className={styles["nav-list-items"]}><BiSolidCaretRightCircle color="#0021F5" />Careers</Link></li>
           <li><Link to="contact" spy={true} offset={-90} smooth={true} duration={600} className={styles["contact-button"]}>Contact Us</Link></li>
         </ul>
-        
         {renderDropdownMenu()}
       </div>
     </nav>
