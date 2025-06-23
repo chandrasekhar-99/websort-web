@@ -2,6 +2,7 @@ import styles from './home.module.css';
 import Header from '../Header/header';
 import AboutUs from '../AboutUs/aboutus';
 import Projects from '../Projects/projects';
+import CarouselPage from '../CarouselPage/carouselpage';
 import ContactUs from '../ContactUs/contactus';
 import Footer from '../Footer/footer';
 
@@ -23,6 +24,7 @@ function Home() {
         </div>
       <AboutUs />
       <Projects />
+      <CarouselPage/>
       <ContactUs />
       <Footer />
     </>
