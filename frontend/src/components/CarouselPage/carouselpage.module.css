@@ -212,6 +212,10 @@
   display: none;
 }
 
+.mobileBulbImage{
+  display: none;
+}
+
 
 
 @media (max-width:768px){
@@ -276,5 +280,6 @@ left: 104px;
   height: 190.0000762939453px;
   top: 2114px;
   left: 139px;
+  display: flex;
 }
 }

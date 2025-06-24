@@ -3,6 +3,7 @@ import Header from '../Header/header';
 import AboutUs from '../AboutUs/aboutus';
 import Projects from '../Projects/projects';
 import CarouselPage from '../CarouselPage/carouselpage';
+import Achievement from '../Achievement/achievement'
 import ContactUs from '../ContactUs/contactus';
 import Footer from '../Footer/footer';
 
@@ -25,6 +26,7 @@ function Home() {
       <AboutUs />
       <Projects />
       <CarouselPage/>
+      <Achievement/>
       <ContactUs />
       <Footer />
     </>
